@@ -1,0 +1,74 @@
+import '../styles/Bitacora.css';
+
+function Bitacora() {
+  return (
+    <div className="bitacora">
+      <h2>Bitácora de Trabajo - Grupo 7</h2>
+
+      <section>
+        <h3>Integrantes:</h3>
+        <ul>
+          <li>Sabrina Choque</li>
+          <li>Damián Coronel Burgos</li>
+          <li>Federico Castro</li>
+          <li>Alejandro Cubas</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Organización y Metodología</h3>
+        <p>
+         Utilizamos una metodología colaborativa. Dividimos las tareas por secciones:
+         cada integrante desarrolló su propia vista con su información personal, tecnologías y proyectos.  
+         Usamos GitHub para el control de versiones y GitHub Desktop para facilitar la gestión de commits.  
+         Trabajamos con ramas individuales para que cada integrante pudiera desarrollar su parte sin interferencias, 
+         y luego hicimos merge hacia la rama principal (`main`).  
+         El entorno de desarrollo fue configurado con Vite, lo que permitió una experiencia rápida y eficiente para 
+         todos los integrantes.
+        </p>
+      </section>
+
+     <section>
+  <h3>Aportes individuales</h3>
+  <p>
+    <strong>Sabrina:</strong> Se encargó de la estructura principal del proyecto en React, la creación del componente <em>Sidebar</em>, la página de inicio con tarjetas de presentación de los integrantes, el componente <em>Videojuegos</em> que consume datos desde un archivo JSON, la sección de <em>API pública</em> conectada a Rick and Morty, y el armado general de la bitácora.  
+    También se propuso una estructura inicial para el archivo <code>data.json</code> con 5 videojuegos por integrante. Esta parte puede ser modificada más adelante, ya que se acordó que el diseño visual final será responsabilidad de Damián.
+  </p>
+  <p>
+    <strong>Damian:</strong> A completar según los aportes individuales y desarrollo de cada sección.
+  </p>
+   <p>
+    <strong>Federico:</strong> A completar según los aportes individuales y desarrollo de cada sección.
+  </p>
+   <p>
+    <strong>Alejandro:</strong> A completar según los aportes individuales y desarrollo de cada sección.
+  </p>
+</section>
+
+      <section>
+        <h3>Tecnologías utilizadas</h3>
+        <ul>
+          <li>React</li>
+          <li>Vite</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git y GitHub</li>
+          <li>API pública (Rick and Morty)</li>
+        </ul>
+      </section>
+
+      <section>
+  <h3>Reflexión del grupo</h3>
+  <p>
+    Este trabajo práctico nos permitió integrar los conocimientos de React y desarrollar un proyecto completo de manera colaborativa.  
+    Aprendimos a organizarnos como equipo, a repartir tareas y a comunicarnos durante el proceso.  
+    Además, pudimos aplicar herramientas como GitHub, Vite y el consumo de datos tanto locales (JSON) como externos (API pública).  
+    Nos ayudó a entender mejor el flujo de trabajo real en proyectos de desarrollo web, y valoramos la experiencia como preparación para futuros desafíos.
+  </p>
+</section>
+
+    </div>
+  );
+}
+
+export default Bitacora;
