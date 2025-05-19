@@ -10,8 +10,6 @@ function App() {
         <main style={{ flex: 1, padding: '1rem' }}>
           <Routes>
             <Route path="/" element={<Inicio />} />
-                    
-
           </Routes>
         </main>
       </div>
@@ -20,3 +18,4 @@ function App() {
 }
 
 export default App;
+
