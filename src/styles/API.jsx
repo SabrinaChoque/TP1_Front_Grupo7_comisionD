@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import '../styles/API.css';
+import '../styles/Api.css'; 
 
-function API() {
+function Api() {
   const [personajes, setPersonajes] = useState([]);
 
   useEffect(() => {
@@ -20,7 +20,6 @@ function API() {
             <img src={personaje.image} alt={personaje.name} />
             <h3>{personaje.name}</h3>
             <p><strong>Especie:</strong> {personaje.species}</p>
-            <p><strong>Estado:</strong> {personaje.status}</p>
           </div>
         ))}
       </div>
@@ -28,4 +27,4 @@ function API() {
   );
 }
 
-export default API;
+export default Api;
