@@ -7,7 +7,7 @@ import Api from './pages/Api';
 import Bitacora from './pages/Bitacora';
 
 
-function Api() {
+function App() {
   return (
     <Router>
       <div style={{ display: 'flex' }}>
@@ -26,4 +26,4 @@ function Api() {
   );
 }
 
-export default Api;
+export default App;
