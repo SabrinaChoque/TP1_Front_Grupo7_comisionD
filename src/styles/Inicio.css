@@ -1,0 +1,46 @@
+.inicio {
+  padding: 1rem;
+}
+
+.inicio h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.inicio .tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.tarjeta {
+  border: 2px solid black;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.foto-integrante {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.tarjeta h3 {
+  margin: 0.5rem 0;
+}
+
+.tarjeta a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tarjeta a:hover {
+  text-decoration: underline;
+}
