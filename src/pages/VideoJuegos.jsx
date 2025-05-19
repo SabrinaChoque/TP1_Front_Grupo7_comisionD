@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import '../styles/VideoJuegos.css';
-import data from '../data/data.json'; // ✅ Import directa desde src
+import data from '../data/data.json'; 
 
 function VideoJuegos() {
   const [juegos, setJuegos] = useState([]);

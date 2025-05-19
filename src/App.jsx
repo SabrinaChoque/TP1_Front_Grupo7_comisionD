@@ -3,6 +3,8 @@ import Inicio from './pages/Inicio';
 import Sidebar from './components/Sidebar';
 import Sabrina from './pages/Sabrina';
 import VideoJuegos from './pages/VideoJuegos';
+import API from './pages/API';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
             <Route path="/" element={<Inicio />} />
             <Route path="/sabrina" element={<Sabrina />} />
             <Route path="/videojuegos" element={<VideoJuegos />} />
+            <Route path="/api" element={<API />} />
           </Routes>
         </main>
       </div>
