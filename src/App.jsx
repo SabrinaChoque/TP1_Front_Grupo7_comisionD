@@ -3,11 +3,11 @@ import Inicio from './pages/Inicio';
 import Sidebar from './components/Sidebar';
 import Sabrina from './pages/Sabrina';
 import VideoJuegos from './pages/VideoJuegos';
-import API from './pages/ApiTemporal';
+import Api from './pages/Api';
 import Bitacora from './pages/Bitacora';
 
 
-function ApiTemporal() {
+function Api() {
   return (
     <Router>
       <div style={{ display: 'flex' }}>
@@ -26,4 +26,4 @@ function ApiTemporal() {
   );
 }
 
-export default ApiTemporal;
+export default Api;
