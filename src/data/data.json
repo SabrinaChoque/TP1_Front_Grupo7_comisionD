@@ -1,0 +1,34 @@
+{
+  "videojuegosDeSabrina": [
+    {
+      "titulo": "Legend of Mana",
+      "genero": "RPG",
+      "anio": 1999,
+      "descripcion": "Juego de rol con gráficos tipo acuarela y sistema de creación de mundo."
+    },
+    {
+      "titulo": "Little Nightmares",
+      "genero": "Plataformas, Terror",
+      "anio": 2017,
+      "descripcion": "Una historia oscura protagonizada por Six, una niña atrapada en un lugar siniestro."
+    },
+    {
+      "titulo": "Bendy and the Ink Machine",
+      "genero": "Terror, Puzzle",
+      "anio": 2017,
+      "descripcion": "Un juego con estética de dibujos animados antiguos mezclado con horror psicológico."
+    },
+    {
+      "titulo": "Overwatch",
+      "genero": "Shooter, Online",
+      "anio": 2016,
+      "descripcion": "Shooter por equipos con héroes únicos y enfoque en el juego en equipo."
+    },
+    {
+      "titulo": "God of War",
+      "genero": "Acción, Aventura",
+      "anio": 2018,
+      "descripcion": "Kratos viaja con su hijo Atreus en una historia épica basada en la mitología nórdica."
+    }
+  ]
+}
