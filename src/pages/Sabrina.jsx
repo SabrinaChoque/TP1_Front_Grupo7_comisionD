@@ -1,4 +1,4 @@
-import '../styles/sabrina.css'; 
+import '../styles/Sabrina.css'; 
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import js from '../assets/js.png';
