@@ -3,8 +3,7 @@ import Inicio from './pages/Inicio';
 import Sidebar from './components/Sidebar';
 import Sabrina from './pages/Sabrina';
 import VideoJuegos from './pages/VideoJuegos';
-import API from './pages/ApiTemp';
-
+import API from './pages/API';
 import Bitacora from './pages/Bitacora';
 
 
