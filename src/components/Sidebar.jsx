@@ -9,6 +9,7 @@ function Sidebar() {
       <ul>
         <li><Link to="/">Inicio</Link></li>
         <li><Link to="/sabrina">Sabrina</Link></li>
+        <li><Link to="/videojuegos">Videojuegos</Link></li>
 
           </ul>
     </nav>
