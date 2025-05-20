@@ -5,6 +5,8 @@ import Sabrina from './pages/Sabrina';
 import VideoJuegos from './pages/VideoJuegos';
 import Api from './pages/Api';
 import Bitacora from './pages/Bitacora';
+import Damian from './pages/Damian';
+
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/sabrina" element={<Sabrina />} />
+            <Route path="/damian" element={<Damian />} />
             <Route path="/videojuegos" element={<VideoJuegos />} />
             <Route path="/api" element={<Api />} />
             <Route path="/bitacora" element={<Bitacora />} />
