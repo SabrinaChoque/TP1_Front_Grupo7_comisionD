@@ -30,5 +30,46 @@
       "anio": 2018,
       "descripcion": "Kratos viaja con su hijo Atreus en una historia épica basada en la mitología nórdica."
     }
-  ]
+  ],
+
+"videojuegosDeDamian": [
+  {
+    "titulo": "Mortal Kombat Ultimate",
+    "plataforma": "Sega",
+    "genero": "Lucha",
+    "anio": 1995,
+    "descripcion": "La versión definitiva del clásico juego de lucha con personajes icónicos y fatalities."
+  },
+  {
+    "titulo": "Super Smash Bros",
+    "plataforma": "Nintendo 64",
+    "genero": "Lucha, Party",
+    "anio": 1999,
+    "descripcion": "Juego de lucha con personajes de Nintendo enfrentándose en diferentes escenarios."
+  },
+  {
+    "titulo": "Counter Strike 1.6",
+    "plataforma": "PC",
+    "genero": "Shooter, Táctico",
+    "anio": 2003,
+    "descripcion": "Juego de disparos en primera persona con modos de juego competitivos entre terroristas y antiterroristas."
+  },
+  {
+    "titulo": "PES",
+    "plataforma": "Multiplataforma",
+    "genero": "Deportes, Fútbol",
+    "anio": "varios",
+    "descripcion": "Popular juego de fútbol con licencias oficiales y modos de juego variados."
+  },
+  {
+    "titulo": "Call of Duty: Modern Warfare",
+    "plataforma": "Multiplataforma",
+    "genero": "Shooter, Acción",
+    "anio": 2019,
+    "descripcion": "Shooter en primera persona con campañas intensas y modos multijugador competitivos."
+  }
+]
+  
+
+
 }

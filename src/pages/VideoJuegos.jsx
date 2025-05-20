@@ -7,14 +7,27 @@ function VideoJuegos() {
 
   useEffect(() => {
     setJuegos(data.videojuegosDeSabrina || []);
+    setJuegos(data.videojuegosDeDamian || []);
   }, []);
 
   return (
-    <div className="videojuegos">
+<div className="videojuegos">
       <h2>Videojuegos favoritos de Sabrina</h2>
       <div className="tarjetas-videojuegos">
         {juegos.map((juego, index) => (
-          <div className="tarjeta-juego" key={index}>
+          <div className="tarjeta-juego" key={`sabrina-${index}`}>
+            <h3>{juego.titulo}</h3>
+            <p><strong>Género:</strong> {juego.genero}</p>
+            <p><strong>Año:</strong> {juego.anio}</p>
+            <p>{juego.descripcion}</p>
+          </div>
+        ))}
+      </div>
+
+      <h2>Videojuegos favoritos de Damian</h2>
+      <div className="tarjetas-videojuegos">
+        {juegos.map((juego, index) => (
+          <div className="tarjeta-juego" key={`damian-${index}`}>
             <h3>{juego.titulo}</h3>
             <p><strong>Género:</strong> {juego.genero}</p>
             <p><strong>Año:</strong> {juego.anio}</p>
@@ -23,7 +36,10 @@ function VideoJuegos() {
         ))}
       </div>
     </div>
+
+    
   );
+  
 }
 
 export default VideoJuegos;
