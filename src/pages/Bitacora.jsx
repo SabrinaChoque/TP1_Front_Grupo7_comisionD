@@ -35,7 +35,7 @@ function Bitacora() {
     También se propuso una estructura inicial para el archivo <code>data.json</code> con 5 videojuegos por integrante. Esta parte puede ser modificada más adelante, ya que se acordó que el diseño visual final será responsabilidad de Damián.
   </p>
   <p>
-    <strong>Damian:</strong> A completar según los aportes individuales y desarrollo de cada sección.
+    <strong>Damian:</strong> Se encargo de su pagina correspondiente a la cual le dio un estilo unico y representativo utilizando colores representativo acordes al proyecto en cuestion, asimismo realizó un aporte sobre la plantilla de videojuegos integrando un total de 5 (cinco) items mas, cada una de las acciones fueron orquestadas y diagramadas para utilizar github y trabajar con ramas, esto a traves de un aprendizaje y colaboración tanto individual como grupal
   </p>
    <p>
     <strong>Federico:</strong> A completar según los aportes individuales y desarrollo de cada sección.
