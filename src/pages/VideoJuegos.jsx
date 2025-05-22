@@ -3,18 +3,46 @@ import '../styles/VideoJuegos.css';
 import data from '../data/data.json'; 
 
 function VideoJuegos() {
-  const [juegos, setJuegos] = useState([]);
+  const [juegosSabrina, setJuegosSabrina] = useState([]);
+  const [juegosDamian, setJuegosDamian] = useState([]);
+  const [juegosFederico, setJuegosFederico] = useState([]);
 
   useEffect(() => {
-    setJuegos(data.videojuegosDeSabrina || []);
+    setJuegosSabrina(data.videojuegosDeSabrina || []);
+    setJuegosDamian(data.videojuegosDeDamian || []);
+    setJuegosFederico(data.videojuegosDeFederico || []);
   }, []);
 
   return (
     <div className="videojuegos">
       <h2>Videojuegos favoritos de Sabrina</h2>
       <div className="tarjetas-videojuegos">
-        {juegos.map((juego, index) => (
-          <div className="tarjeta-juego" key={index}>
+        {juegosSabrina.map((juego, index) => (
+          <div className="tarjeta-juego" key={`sabrina-${index}`}>
+            <h3>{juego.titulo}</h3>
+            <p><strong>Género:</strong> {juego.genero}</p>
+            <p><strong>Año:</strong> {juego.anio}</p>
+            <p>{juego.descripcion}</p>
+          </div>
+        ))}
+      </div>
+
+      <h2>Videojuegos favoritos de Damian</h2>
+      <div className="tarjetas-videojuegos">
+        {juegosDamian.map((juego, index) => (
+          <div className="tarjeta-juego" key={`damian-${index}`}>
+            <h3>{juego.titulo}</h3>
+            <p><strong>Género:</strong> {juego.genero}</p>
+            <p><strong>Año:</strong> {juego.anio}</p>
+            <p>{juego.descripcion}</p>
+          </div>
+        ))}
+      </div>
+
+      <h2>Videojuegos favoritos de Federico</h2>
+      <div className="tarjetas-videojuegos">
+        {juegosFederico.map((juego, index) => (
+          <div className="tarjeta-juego" key={`fede-${index}`}>
             <h3>{juego.titulo}</h3>
             <p><strong>Género:</strong> {juego.genero}</p>
             <p><strong>Año:</strong> {juego.anio}</p>

@@ -16,7 +16,7 @@ function Inicio() {
       imagen: reactImg
     },
     {
-      nombre: 'Federico Acosta',
+      nombre: 'Federico Castro',
       ruta: '/federico',
       imagen: reactImg
     },
