@@ -1,5 +1,14 @@
 import ProjectCard from "../components/ProjectCard";
 import "../styles/Federico.css";
+import html from '../assets/html.png';
+import css from '../assets/css.png';
+import js from '../assets/js.png';
+import python from '../assets/python.png';
+import react from '../assets/react_solo.png';
+import git from '../assets/git.png';
+import github from '../assets/github.png';
+import csharp from '../assets/c-sharp.png';
+import kotlin from '../assets/kotlin.svg';
 
 const Federico = () => {
   const proyectos = [
@@ -7,24 +16,24 @@ const Federico = () => {
       title: "Sistema de Gestión Clínica SePrise",
       description: "Aplicación de escritorio desarrollada en C#. Incluye inicio de sesión, agenda de turnos por especialidad médica y control de insumos clínicos.",
       technologies: [
-        { name: "C#", icon: "/src/assets/c-sharp.png" },
-        { name: "Git", icon: "/src/assets/git.png" }
+        { name: "C#", icon: csharp },
+        { name: "Git", icon: git }
       ]
     },
     {
       title: "App de Gestión para Club Deportivo",
       description: "Aplicación de escritorio en C# y versión adaptada a Android con Android Studio. Permite gestionar socios, pagos de cuotas y reportes.",
       technologies: [
-        { name: "C#", icon: "/src/assets/c-sharp.png" },
-        { name: "Kotlin", icon: "/src/assets/kotlin.svg" }
+        { name: "C#", icon: csharp },
+        { name: "Kotlin", icon: kotlin }
       ]
     },
     {
       title: "Portfolio Personal",
       description: "Sitio básico hecho en HTML y CSS para mostrar información personal y contacto.",
       technologies: [
-        { name: "HTML", icon: "/src/assets/html.png" },
-        { name: "CSS", icon: "/src/assets/css.png" }
+        { name: "HTML", icon: html },
+        { name: "CSS", icon: css }
       ]
     }
   ];
@@ -32,14 +41,14 @@ const Federico = () => {
   const habilidades = ["C#", "HTML5", "CSS3", "JavaScript", "Python", "Git"];
 
   const tecnologias = [
-    { name: "HTML", icon: "/src/assets/html.png" },
-    { name: "CSS", icon: "/src/assets/css.png" },
-    { name: "JavaScript", icon: "/src/assets/js.png" },
-    { name: "Python", icon: "/src/assets/python.png" },
-    { name: "React", icon: "/src/assets/react_solo.png" },
-    { name: "Git", icon: "/src/assets/git.png" },
-    { name: "GitHub", icon: "/src/assets/github.png" },
-    { name: "C#", icon: "/src/assets/c-sharp.png" }
+    { name: "HTML", icon: html },
+    { name: "CSS", icon: css },
+    { name: "JavaScript", icon: js },
+    { name: "Python", icon: python },
+    { name: "React", icon: react },
+    { name: "Git", icon: git },
+    { name: "GitHub", icon: github },
+    { name: "C#", icon: csharp }
   ];
 
   return (
