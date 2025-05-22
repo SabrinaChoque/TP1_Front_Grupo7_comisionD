@@ -1,14 +1,12 @@
 .sidebar {
   width: 200px;
-  background-color: #000000;
+  background-color: #eee;
   padding: 1rem;
-  height: auto;            
-  min-height: 100vh;       
+  height: 100vh;
   box-sizing: border-box;
 }
 
 .sidebar h2 {
-  color: #ffffff;
   margin-top: 0;
 }
 
@@ -22,7 +20,7 @@
 }
 
 .sidebar a {
-  color: #ffffff;
+  color: #333;
   text-decoration: none;
 }
 
