@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Inicio from './pages/Inicio';
 import Sidebar from './components/Sidebar';
 import Sabrina from './pages/Sabrina';
+import Federico from './pages/Federico';
 import VideoJuegos from './pages/VideoJuegos';
 import Api from './pages/Api';
 import Bitacora from './pages/Bitacora';
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/sabrina" element={<Sabrina />} />
+            <Route path="/federico" element={<Federico />} />
             <Route path="/damian" element={<Damian />} />
             <Route path="/videojuegos" element={<VideoJuegos />} />
             <Route path="/api" element={<Api />} />
