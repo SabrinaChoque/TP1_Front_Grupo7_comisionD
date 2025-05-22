@@ -5,14 +5,14 @@ import Sabrina from './pages/Sabrina';
 import VideoJuegos from './pages/VideoJuegos';
 import Api from './pages/Api';
 import Bitacora from './pages/Bitacora';
-
+import './App.css'; // Asegurate de importar el CSS aquí
 
 function App() {
   return (
     <Router>
-      <div style={{ display: 'flex' }}>
+      <div className="contenedor-principal">
         <Sidebar />
-        <main style={{ flex: 1, padding: '1rem' }}>
+        <main className="contenido-principal">
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/sabrina" element={<Sabrina />} />
