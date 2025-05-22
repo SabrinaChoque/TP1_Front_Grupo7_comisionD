@@ -2,25 +2,20 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Inicio from './pages/Inicio';
 import Sidebar from './components/Sidebar';
 import Sabrina from './pages/Sabrina';
-import Federico from './pages/Federico';
 import VideoJuegos from './pages/VideoJuegos';
 import Api from './pages/Api';
 import Bitacora from './pages/Bitacora';
-import Damian from './pages/Damian';
-
-
+import './App.css'; // Asegurate de importar el CSS aquí
 
 function App() {
   return (
     <Router>
-      <div style={{ display: 'flex' }}>
+      <div className="contenedor-principal">
         <Sidebar />
-        <main style={{ flex: 1, padding: '1rem' }}>
+        <main className="contenido-principal">
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/sabrina" element={<Sabrina />} />
-            <Route path="/federico" element={<Federico />} />
-            <Route path="/damian" element={<Damian />} />
             <Route path="/videojuegos" element={<VideoJuegos />} />
             <Route path="/api" element={<Api />} />
             <Route path="/bitacora" element={<Bitacora />} />

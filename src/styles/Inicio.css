@@ -44,3 +44,24 @@
 .tarjeta a:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .inicio .tarjetas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta {
+    width: 90%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .inicio .tarjetas {
+    justify-content: center;
+  }
+
+  .tarjeta {
+    width: 45%;
+  }
+}
+
