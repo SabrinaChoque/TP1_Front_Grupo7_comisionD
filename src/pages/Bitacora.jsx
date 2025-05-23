@@ -38,7 +38,7 @@ function Bitacora() {
     <strong>Damian:</strong> Se encargo de su pagina correspondiente a la cual le dio un estilo unico y representativo utilizando colores representativo acordes al proyecto en cuestion, asimismo realizó un aporte sobre la plantilla de videojuegos integrando un total de 5 (cinco) items mas, cada una de las acciones fueron orquestadas y diagramadas para utilizar github y trabajar con ramas, esto a traves de un aprendizaje y colaboración tanto individual como grupal
   </p>
    <p>
-    <strong>Federico:</strong> A completar según los aportes individuales y desarrollo de cada sección.
+    <strong>Federico:</strong> Se encargó del desarrollo de su sección personal en <em>React</em>, incluyendo nombre, habilidades, proyectos y tecnologías con íconos importados correctamente desde la carpeta de <em>assets</em>. Utilizó Flexbox y animaciones CSS para presentar la información de forma ordenada y responsiva. Agregó su ruta a los archivos <code>App.jsx</code> y <code>Sidebar.jsx</code>, y colaboró en la página de videojuegos integrando sus títulos favoritos al archivo <code>data.json</code>. Tuvo que resolver problemas relacionados con la visualización de íconos en producción <em>(Vercel)</em> debido a rutas estáticas incorrectas, y ajustó el estilo del header para evitar estilos globales heredados.
   </p>
    <p>
     <strong>Alejandro:</strong> A completar según los aportes individuales y desarrollo de cada sección.
