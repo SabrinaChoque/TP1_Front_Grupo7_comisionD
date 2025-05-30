@@ -17,7 +17,7 @@ function Inicio() {
       nombre: 'Damian Coronel Burgos',
       ruta: '/damian',
       imagen: damiImg,
-      descripcion: 'en proceso'
+      descripcion: 'Estudiante con una fuerte curiosidad en el area de ciencia de datos e inteligencia artificial'
     },
     {
       nombre: 'Federico Castro',

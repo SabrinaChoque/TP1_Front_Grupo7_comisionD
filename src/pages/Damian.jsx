@@ -10,6 +10,7 @@ import looker from '../assets/looker.png';
 import aplicacion_movil from'../assets/aplicacion_movil.png';
 import base_de_datos from '../assets/base_de_datos.png';
 import pagina_web from '../assets/pagina_web.png';
+import damian_perfil from '../assets/damian_perfil.png';
 
 
 function Damian() {
@@ -23,6 +24,22 @@ function Damian() {
 
 
       <main>
+
+        <div className="titulo"><h2>Sobre mí</h2> </div>
+        <div className="damian-sobre-mi">
+          <img src={damian_perfil} alt="Foto de perfil " className="damian-foto" />
+          <div className="damian-descripcion">
+            <p>Hola, mi nombre es Damian Coronel Burgos, tengo 32 años. Actualmente estoy cursando la carrera de Tecnicatura Superior en Desarrollo de Software. Mi meta es poder recibirme e incursionar en el mundo de la ciencia de datos e inteligencia artificial .</p>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
         <div className="titulo"> Habilidades en programacion</div>
 
             <div className="listado_habilidades">

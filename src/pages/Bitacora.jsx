@@ -40,7 +40,7 @@ function Bitacora() {
 </p>
 
   <p>
-    <strong>Damian:</strong> Se encargo de su pagina correspondiente a la cual le dio un estilo unico y representativo utilizando colores representativo acordes al proyecto en cuestion, asimismo realizó un aporte sobre la plantilla de videojuegos integrando un total de 5 (cinco) items mas, cada una de las acciones fueron orquestadas y diagramadas para utilizar github y trabajar con ramas, esto a traves de un aprendizaje y colaboración tanto individual como grupal
+   <strong>Damian:</strong> Como no comprendía cómo desarrollar el proyecto, realizó una simulación aparte desde cero para entender la estructura del mismo. Esto le permitió desenvolverse mejor con este nuevo desafio. Luego se encargó de su página correspondiente, a la cual le dio un estilo único y representativo, utilizando colores acordes al proyecto en cuestión. Asimismo, realizó un aporte a la plantilla de videojuegos, integrando un total de cinco ítems adicionales. Cada una de estas acciones fue planificada y ejecutada utilizando GitHub a través del uso de ramas, lo cual fue posible gracias a la colaboración y constante comunicación grupal, así como al esfuerzo individual.
   </p>
    <p>
     <strong>Federico:</strong> A completar según los aportes individuales y desarrollo de cada sección.
