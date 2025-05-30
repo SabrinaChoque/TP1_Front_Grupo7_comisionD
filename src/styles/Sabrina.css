@@ -5,37 +5,33 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-/*FONDO*/
+
+/* Fondo general */
 .sabrina-fondo {
-  background: #fdc6eb; 
+  background: #fdc6eb;
   border-radius: 12px;
   padding: 2rem;
   margin: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* CABECERA */
+/* Cabecera */
 .sabrina-header {
-  background-color: transparent;
-  padding: 4rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4rem 1rem;
 }
 
 .sabrina-banner {
   background-color: #8e24aa;
   padding: 2rem 4rem;
   border-radius: 100px;
-  text-align: center;
   color: white;
   max-width: 900px;
   width: 100%;
-  margin: 0 auto;
+  text-align: center;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .sabrina-banner h1 {
@@ -47,27 +43,49 @@ body {
 
 .sabrina-subtitulo {
   font-size: 1.2rem;
-  font-weight: 300;
   margin-top: 0.8rem;
+  font-weight: 300;
   color: #f8f8f8;
 }
 
-/* TÍTULOS */
+/* Títulos */
 .sabrina-titulo {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
   color: #8e24aa;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin: 2rem auto 1.5rem auto;
 }
 
-.sabrina-proyectos {
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
+/* Sobre mí */
+.sabrina-sobre-mi {
+  background-color: rgb(255, 245, 254);
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto 2rem auto;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
 }
 
-/* HABILIDADES */
+.sabrina-foto {
+  width: 180px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sabrina-descripcion {
+  flex: 1;
+  font-size: 1rem;
+  color: #222;
+  line-height: 1.8;
+  text-align: left;
+}
+
+/* Habilidades e intereses */
 .sabrina-habilidades-intereses {
   display: flex;
   justify-content: center;
@@ -96,7 +114,7 @@ body {
   line-height: 1.6;
 }
 
-/* PROYECTOS */
+/* Proyectos */
 .sabrina-contenedor-proyectos {
   max-width: 1000px;
   margin: 2rem auto;
@@ -108,7 +126,7 @@ body {
 }
 
 .sabrina-proyecto {
-   background-color: rgb(255, 245, 254);
+  background-color: rgb(255, 245, 254);
   padding: 1.2rem;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -119,9 +137,7 @@ body {
 
 .sabrina-proyecto:hover {
   transform: translateY(-8px);
-  box-shadow:
-    0 12px 25px rgba(0, 0, 0, 0.35),
-    0 0 20px rgba(138, 43, 226, 0.45);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35), 0 0 20px rgba(138, 43, 226, 0.45);
 }
 
 .sabrina-proyecto h2 {
@@ -143,7 +159,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* TECNOLOGÍAS */
+/* Iconos de tecnologías */
 .sabrina-iconos {
   display: flex;
   justify-content: center;
@@ -164,9 +180,9 @@ body {
   transform: rotate(360deg);
 }
 
-/* FOOTER */
+/* Footer */
 .sabrina-footer {
-   background-color: #8e24aa;
+  background-color: #8e24aa;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -174,7 +190,7 @@ body {
   margin-top: 3rem;
 }
 
-/* RESPONSIVE */
+/* Responsive */
 @media (max-width: 768px) {
   .sabrina-banner h1 {
     font-size: 1.8rem;
@@ -184,7 +200,8 @@ body {
     font-size: 1rem;
   }
 
-  .sabrina-bloque {
+  .sabrina-bloque,
+  .sabrina-proyecto {
     width: 90%;
   }
 
@@ -193,7 +210,12 @@ body {
     align-items: center;
   }
 
-  .sabrina-proyecto {
-    width: 90%;
+  .sabrina-sobre-mi {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sabrina-descripcion {
+    text-align: center;
   }
 }

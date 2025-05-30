@@ -1,29 +1,35 @@
 import { Link } from 'react-router-dom';
 import '../styles/Inicio.css';
-import reactImg from '../assets/react.png'; // Usamos una imagen genérica temporal
-
-
+import sabriImg from '../assets/sabri.png'; 
+import damiImg from '../assets/dami.png';
+import fedeImg from '../assets/fede.png'; 
+import aleImg from '../assets/ale.png'; 
 function Inicio() {
   const integrantes = [
     {
       nombre: 'Sabrina Choque',
       ruta: '/sabrina',
-      imagen: reactImg
+      imagen: sabriImg,
+      descripcion: 'Mamá, futura desarrolladora y amante del diseño y los videojuegos. En busca de mi primer gran desafío en IT.',
+
     },
     {
       nombre: 'Damian Coronel Burgos',
       ruta: '/damian',
-      imagen: reactImg
+      imagen: damiImg,
+      descripcion: 'en proceso'
     },
     {
       nombre: 'Federico Castro',
       ruta: '/federico',
-      imagen: reactImg
+      imagen: fedeImg,
+      descripcion: 'en proceso'
     },
     {
       nombre: 'Alejandro Cubas',
       ruta: '/alejandro',
-      imagen: reactImg
+      imagen: aleImg,
+      descripcion: 'en proceso'
     }
   ];
 
@@ -42,6 +48,7 @@ function Inicio() {
               className="foto-integrante"
             />
             <h3>{int.nombre}</h3>
+            <p>{int.descripcion}</p>
             <Link to={int.ruta}>Ver perfil</Link>
           </div>
         ))}
