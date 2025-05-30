@@ -1,9 +1,12 @@
 .sidebar {
-  width: 200px;
-  background-color: #eee;
-  padding: 1rem;
-  height: 100vh;
-  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 160px;     
+  height: 100vh;   
+  background: linear-gradient(to bottom, #5b98d6, #c2dee2);
+  color: white;
+  z-index: 1000;    
 }
 
 .sidebar h2 {
