@@ -30,10 +30,15 @@ function Bitacora() {
 
      <section>
   <h3>Aportes individuales</h3>
-  <p>
-    <strong>Sabrina:</strong> Se encargó de la estructura principal del proyecto en React, la creación del componente <em>Sidebar</em>, la página de inicio con tarjetas de presentación de los integrantes, el componente <em>Videojuegos</em> que consume datos desde un archivo JSON, la sección de <em>API pública</em> conectada a Rick and Morty, y el armado general de la bitácora.  
-    También se propuso una estructura inicial para el archivo <code>data.json</code> con 5 videojuegos por integrante. Esta parte puede ser modificada más adelante, ya que se acordó que el diseño visual final será responsabilidad de Damián.
-  </p>
+    <p>
+  <strong>Sabrina:</strong> Se encargó de la estructura principal del proyecto en React, incluyendo:
+  la creación del componente <em>Sidebar</em>, la página de inicio con tarjetas de presentación de los integrantes, el componente <em>Videojuegos</em> que consume datos desde un archivo JSON, la sección de <em>API pública</em> conectada a Rick and Morty, y el armado general de la bitácora.
+
+  También propuso una estructura inicial para el archivo <code>data.json</code> con 5 videojuegos por integrante, aunque se dejó abierto a futuras modificaciones, ya que el diseño visual final será responsabilidad de Damián.
+
+  Durante la integración final con Vercel, detectó un error importante relacionado con el uso inconsistente de nombres de archivos y rutas (mayúsculas, minúsculas). Esto generó fallos al hacer deploy, ya que tanto React como Vercel son sensibles al uso correcto del <em>naming</em>. Para evitarlo, se recomienda seguir un estándar estricto como <code>camelCase</code> o <code>kebab-case</code> (con guiones) de forma consistente.
+</p>
+
   <p>
     <strong>Damian:</strong> Se encargo de su pagina correspondiente a la cual le dio un estilo unico y representativo utilizando colores representativo acordes al proyecto en cuestion, asimismo realizó un aporte sobre la plantilla de videojuegos integrando un total de 5 (cinco) items mas, cada una de las acciones fueron orquestadas y diagramadas para utilizar github y trabajar con ramas, esto a traves de un aprendizaje y colaboración tanto individual como grupal
   </p>
