@@ -10,6 +10,9 @@ import looker from '../assets/looker.png';
 import aplicacion_movil from '../assets/aplicacion_movil.png';
 import base_de_datos from '../assets/base_de_datos.png';
 import pagina_web from '../assets/pagina_web.png';
+import appDesktop from '../assets/appDesktop.jpg';
+import appMobile from '../assets/appMobile.jpeg';
+import appWeb from '../assets/appWeb.webp';
 
 function Alejandro() {
   return (
@@ -17,7 +20,7 @@ function Alejandro() {
     <div className="fondo-alejandro">
       <header>
         <div className="caja-nombre">
-          <h1>Alejandro [Tu Apellido]</h1>
+          <h1>Alejandro Ariel Cubas</h1>
         </div>
       </header>
 
@@ -27,11 +30,14 @@ function Alejandro() {
         <div className="listado_habilidades">
           <p className="parrafo_habilidades">
             <ul>
-              <li>JavaScript moderno – ES6+, uso de módulos, async/await.</li>
-              <li>React – componentes funcionales, hooks y rutas.</li>
+              <li>JavaScript – conocimientos fundamentales de lógica, eventos y manipulación del DOM.</li>
+              <li>Java – desarrollo orientado a objetos y aplicaciones robustas.</li>
+              <li>Interfaces gráficas – creación de GUIs con Swing.</li>
+              <li>Backend en Java – desarrollo con Servlets.</li>
+              <li>Frameworks – aplicaciones avanzadas con Spring Boot 3 y autenticación con Spring Security.</li>
               <li>Node.js – desarrollo backend básico con Express.</li>
-              <li>HTML y CSS – diseño responsive con Flexbox y Grid.</li>
-              <li>SQL – consultas, relaciones y modelado de datos.</li>
+              <li>HTML y CSS – maquetado semántico y diseño adaptable con Flexbox y Grid.</li>
+              <li>Base de datos – diseño e integración de sistemas con MySQL.</li>
             </ul>
           </p>
         </div>
@@ -41,21 +47,27 @@ function Alejandro() {
         <div className="contenedor_proyectos">
 
           <div className="proyecto_uno">
-            <h2>Proyecto n° 1: [Nombre del Proyecto]</h2>
-            <p>[Descripción del proyecto 1 que hayas realizado, por ejemplo algo con base de datos o backend]</p>
-            <div><img src={base_de_datos} alt="Base de datos" /></div>
+            <h2>Proyecto n° 1: Aplicación de gestión de turnos médicos</h2>
+            <p>Desarrollamos un aplicación encargada de la gestión de turnos y entrega de análisis médicos desarrollada
+              en con C# en .NET y MySQL.
+            </p>
+            <div><img src={appDesktop} alt="appDesktop" /></div>
           </div>
 
           <div className="proyecto_uno">
-            <h2>Proyecto n° 2: [Nombre del Proyecto]</h2>
-            <p>[Descripción del proyecto 2, como una página web o sistema en React]</p>
-            <div><img src={pagina_web} alt="Página web" /></div>
+            <h2>Proyecto n° 2: App de gestión para club deportivo</h2>
+            <p>Participé en el diseño de una aplicación de gestión de asociados y pagos para un club deportivo
+              utilizando Kotlin, Sqlite y figma. 
+            </p>
+            <div><img src={appMobile} alt="appMobile" /></div>
           </div>
 
           <div className="proyecto_uno">
-            <h2>Proyecto n° 3: [Nombre del Proyecto]</h2>
-            <p>[Descripción del proyecto 3, por ejemplo una app móvil o de escritorio]</p>
-            <div><img src={aplicacion_movil} alt="Aplicación móvil" /></div>
+            <h2>Proyecto n° 3: Aplicación Web para inmobiliaria</h2>
+            <p>Creamos la base de una aplicación web de creación y consulta de contratos de alquiler y gestión de 
+              citas con clientes utilizando Javascript, JSON, CSS y NodeJS. 
+            </p>
+            <div><img src={appWeb} alt="appWeb" /></div>
           </div>
 
         </div>
