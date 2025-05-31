@@ -7,11 +7,18 @@
   margin-bottom: 0.5rem;
 }
 
+
+.inicio p{
+  text-align: center;
+}
+
+
 .inicio .tarjetas {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 1rem;
+  justify-content: center;
 }
 
 .tarjeta {
@@ -64,4 +71,3 @@
     width: 45%;
   }
 }
-
