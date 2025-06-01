@@ -9,6 +9,7 @@ import git from '../assets/git.png';
 import github from '../assets/github.png';
 import csharp from '../assets/c-sharp.png';
 import kotlin from '../assets/kotlin.svg';
+import avatarFede from '../assets/avatar_fede.png';
 
 const Federico = () => {
   const proyectos = [
@@ -58,6 +59,18 @@ const Federico = () => {
       </header>
 
       <main>
+        <h2>Sobre mí</h2>
+        <section className="sobre-mi">
+          <img src={avatarFede} alt="Avatar de Federico" className="avatar" />
+          <div>
+            <p>
+              Soy Federico Castro, desarrollador en formación con un gran interés en el área de datos y desarrollo backend.
+              Actualmente trabajo como administrativo en el Ministerio de Educación de la Ciudad de Buenos Aires.
+              Disfruto del proceso de construir herramientas útiles y optimizadas que resuelvan necesidades reales de forma efectiva.
+            </p>
+          </div>
+        </section>
+
         <section>
           <h2>Habilidades en programación</h2>
           <ul>

@@ -23,7 +23,7 @@ function Inicio() {
       nombre: 'Federico Castro',
       ruta: '/federico',
       imagen: fedeImg,
-      descripcion: 'en proceso'
+      descripcion: 'Desarrollador en formación con interés en datos y backend. Entusiasta de las soluciones prácticas y bien diseñadas.'
     },
     {
       nombre: 'Alejandro Cubas',

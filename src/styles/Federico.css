@@ -9,13 +9,46 @@
 
 /* Encabezado */
 .federico-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
   background: linear-gradient(to right, #2c223f, #4503be);
   color: white;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
   text-align: center;
   border-radius: 8px;
   margin-bottom: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Sobre mí */
+.sobre-mi {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #ffffffd8;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar {
+  image-rendering: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+  object-fit: cover;
+  border: 3px solid #4503be;
+}
+
+.sobre-mi div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Habilidades */
