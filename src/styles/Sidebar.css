@@ -6,7 +6,12 @@
   height: 100vh;   
   background: linear-gradient(to bottom, #5b98d6, #c2dee2);
   color: white;
-  z-index: 1000;    
+  z-index: 1000;  
+
+}
+.inicio, .contenedor-principal{
+  margin-left: 100px;
+  padding: 1rem;
 }
 
 .sidebar h2 {

@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import Sabrina from './pages/Sabrina';
 import Federico from './pages/Federico';
 import Damian from './pages/Damian';
+import Alejandro from './pages/Alejandro'; 
 import VideoJuegos from './pages/VideoJuegos';
 import Api from './pages/Api';
 import Bitacora from './pages/Bitacora';
@@ -20,6 +21,7 @@ function App() {
             <Route path="/sabrina" element={<Sabrina />} />
             <Route path="/federico" element={<Federico />} />
             <Route path="/damian" element={<Damian />} />
+            <Route path='/Alejandro' element={<Alejandro/>}/>
             <Route path="/videojuegos" element={<VideoJuegos />} />
             <Route path="/api" element={<Api />} />
             <Route path="/bitacora" element={<Bitacora />} />

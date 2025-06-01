@@ -1,16 +1,19 @@
 import { useEffect, useState } from 'react';
 import '../styles/VideoJuegos.css';
-import data from '../data/data.json'; 
+import data from '../data/data.json';
 
 function VideoJuegos() {
   const [juegosSabrina, setJuegosSabrina] = useState([]);
   const [juegosDamian, setJuegosDamian] = useState([]);
   const [juegosFederico, setJuegosFederico] = useState([]);
+  const [juegosAlejandro, setJuegosAlejandro] = useState([]);
+
 
   useEffect(() => {
     setJuegosSabrina(data.videojuegosDeSabrina || []);
     setJuegosDamian(data.videojuegosDeDamian || []);
     setJuegosFederico(data.videojuegosDeFederico || []);
+    setJuegosAlejandro(data.videojuegosDeAlejandro || []);
   }, []);
 
   return (
@@ -50,8 +53,21 @@ function VideoJuegos() {
           </div>
         ))}
       </div>
+      <h2>Videojuegos favoritos de Alejandro</h2>
+      <div className="tarjetas-videojuegos">
+        {juegosAlejandro.map((juego, index) => (
+          <div className="tarjeta-juego" key={`alejandro-${index}`}>
+            <h3>{juego.titulo}</h3>
+            <p><strong>Género:</strong> {juego.genero}</p>
+            <p><strong>Año:</strong> {juego.anio}</p>
+            <p>{juego.descripcion}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
+
+
 }
 
 export default VideoJuegos;
