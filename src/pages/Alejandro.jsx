@@ -13,7 +13,7 @@ import pagina_web from '../assets/pagina_web.png';
 import appDesktop from '../assets/appDesktop.jpg';
 import appMobile from '../assets/appMobile.jpeg';
 import appWeb from '../assets/appWeb.webp';
-
+import fotoAlejandro from '../assets/fotoAlejandro.png';
 function Alejandro() {
   return (
     <>
@@ -25,6 +25,20 @@ function Alejandro() {
       </header>
 
       <main>
+          <h2>Sobre mí</h2>
+          <section className="sobre-Alejandro">
+            <img src={fotoAlejandro} alt="Imagen de Alejandro" className="avatar" />
+            <div>
+              <p>
+                Me llamo Alejandro Cubas, estoy estudiando Desarrollo de Software, interesado en la rama del Backend particularmente con Java.
+                Soy panadero y padre primerizo de un pequeño de casi dos años. Me gusta la rama de Backend debido a la lógica y conjunto
+                de reglas que uno debe de seguir a la hora de crear una solución que me recuerda mucho al proceso de respetar proporciones de los 
+                ingredientes en las recetas de panadería. Me gusta el estudiar las bases del software pero me suelto trabar seguido, por suerte
+                tengo una pareja que junto con mi pequeño me ayudan a relajar la mente para seguir intentando :D.
+              </p>
+            </div>
+          </section>
+
         <div className="titulo">Habilidades en programación</div>
 
         <div className="listado_habilidades">

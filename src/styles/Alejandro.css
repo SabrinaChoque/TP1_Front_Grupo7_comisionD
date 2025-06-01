@@ -4,7 +4,19 @@ body {
   background-color: #f4f4f4;
   color: #333;
 }
-
+.sobre-Alejandro {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #ffffffd8;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .proyecto_uno img {
   width: 100%;
   max-width: 500px;
