@@ -46,7 +46,7 @@ function Bitacora() {
     <strong>Federico:</strong> Se encargó del desarrollo de su sección personal en <em>React</em>, incluyendo nombre, habilidades, proyectos y tecnologías con íconos importados correctamente desde la carpeta de <em>assets</em>. Utilizó Flexbox y animaciones CSS para presentar la información de forma ordenada y responsiva. Agregó su ruta a los archivos <code>App.jsx</code> y <code>Sidebar.jsx</code>, y colaboró en la página de videojuegos integrando sus títulos favoritos al archivo <code>data.json</code>. Tuvo que resolver problemas relacionados con la visualización de íconos en producción <em>(Vercel)</em> debido a rutas estáticas incorrectas, y ajustó el estilo del header para evitar estilos globales heredados.
   </p>
    <p>
-    <strong>Alejandro:</strong> A completar según los aportes individuales y desarrollo de cada sección.
+    <strong>Alejandro:</strong> Se encargó del diseño de la parte personal. Aunque fue bastante complicado en un principio, estudiando las versiones de sus compañeros junto con el material de consulta, pudo crear una base en la cual poder poner los detalles que consideró propios y los que le gustaron de otros lugares. Colaboró en el agregado de pequeños detalles estéticos de la sidebar al final del desarrollo previo a la entrega. Gracias a la colaboración de sus compañeros, pudo ocmprender y desarrollar una plantilla funcional a lo que se pedía, cosa que hubiera sido mucho más complicada estando solo.
   </p>
 </section>
 
