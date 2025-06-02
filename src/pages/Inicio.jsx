@@ -29,7 +29,7 @@ function Inicio() {
       nombre: 'Alejandro Cubas',
       ruta: '/alejandro',
       imagen: aleImg,
-      descripcion: 'en proceso'
+      descripcion: 'Papá panadero y estudiante de desarrollo de soft. Fanático de la tecnología y la ciencia ficción con el sueño de entrar en el mundo IT como Backend.'
     }
   ];
 
