@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/Damian.css'; 
+import '../styles/Habilidades.css'; 
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import js from '../assets/js.png';
@@ -11,6 +12,7 @@ import aplicacion_movil from'../assets/aplicacion_movil.png';
 import base_de_datos from '../assets/base_de_datos.png';
 import pagina_web from '../assets/pagina_web.png';
 import damian_perfil from '../assets/damian_perfil.png';
+
 
 
 

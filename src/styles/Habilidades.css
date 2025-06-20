@@ -3,8 +3,8 @@
   backdrop-filter: blur(50px);
   border-radius: 10px;
   box-shadow: 0 19px 38px #000, 0 15px 12px #000;
-  max-width: 600px;      /* Podés ajustar esto */
-  margin: 50px auto;     /* Centrado horizontal */
+  max-width: 600px;     
+  margin: 50px auto;     
   padding: 20px;  
   width: 90%;
 
@@ -43,8 +43,8 @@
 }
 
 .bar .progress-line span {
-  position: absolute;             /* ✅ relativo al .progress-line */
-  left: 10px;                        /* ✅ comienza desde el borde izquierdo */
+  position: absolute;             
+  left: 10px;                       
   top: 0;
   height: 100%;
   background: #ffbb00;
