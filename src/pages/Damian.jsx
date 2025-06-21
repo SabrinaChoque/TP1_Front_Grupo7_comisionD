@@ -94,7 +94,7 @@ function Damian() {
       </div>
 
 
-{/*       <div className="Iconos_tecnologias">
+      <div className="Iconos_tecnologias">
               <img src={html} alt="HTML" />
               <img src={css} alt="CSS" />
               <img src={js} alt="JavaScript" />
@@ -104,70 +104,8 @@ function Damian() {
               <img src={looker} alt="Looker" />
 
               
-     </div> */}
-    <div class="skills">
-      <h1>Habilidades</h1>
-      <div class= "skill-bar"> 
+     </div> 
 
-        <div class="bar">
-
-          <div class= "info">
-              <span>HTML <i class = "fa-brands fa-html5"></i></span>
-          </div>
-          <div class="progress-line">
-            <span class="html"></span>
-          </div>
-
-        </div>
-          
-          
-          <div class="bar">
-
-          <div class= "info">
-              <span>CSS <i class= "fa-brands fa-css3"></i></span>
-          </div>
-          <div class="progress-line">
-            <span class="css"></span>
-          </div>
-          
-        </div>
-          
-          
-          <div class="bar">
-
-          <div class= "info">
-              <span>JAVASCRIPT <i class= "fa-brands fa-javascript"></i></span>
-          </div>
-          <div class="progress-line">
-            <span class="javascript"></span>
-          </div>
-          
-        </div>
-                <div class="bar">
-
-          <div class= "info">
-              <span>PYTHON <i class= "fa-brands fa-python"></i></span>
-          </div>
-          <div class="progress-line">
-            <span class="python"></span>
-          </div>
-          
-        </div>
-                <div class="bar">
-
-          <div class= "info">
-              <span>SQL <i class= "fa-brands fa-sql"></i></span>
-          </div>
-          <div class="progress-line">
-            <span class="sql"></span>
-          </div>
-          
-        </div>
-
-
-      </div>
-
-    </div>
  
 
 
